@@ -11,7 +11,7 @@ import SwiftUI
 struct ModularAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(username: "", password: "")
         }
     }
 }
